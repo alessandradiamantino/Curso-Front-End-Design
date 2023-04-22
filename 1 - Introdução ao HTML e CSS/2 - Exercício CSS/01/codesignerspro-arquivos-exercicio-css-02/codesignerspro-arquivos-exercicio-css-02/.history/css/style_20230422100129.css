@@ -3,6 +3,8 @@ body{
   margin: 0;
 }
 main {
+  background-color: #20bd73;
+  content: c;
   width: 70%;
   display: table;
   margin: 100px auto 0 auto;
@@ -43,15 +45,6 @@ p{
   display: block;
 }
 
-.card .card-image-top { /*jeito normal*/
-  margin-top: -55px;
-}
-
-/*.card .card-image-top { jeito doido
-  position: relative;
-  top: -55px;
-  margin-bottom: -55px;
-}*/
 .card .card-body {
   width: 100%;
   display: table;

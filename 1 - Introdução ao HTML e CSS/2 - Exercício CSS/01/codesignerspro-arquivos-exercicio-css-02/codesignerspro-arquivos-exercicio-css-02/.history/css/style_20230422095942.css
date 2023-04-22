@@ -43,15 +43,6 @@ p{
   display: block;
 }
 
-.card .card-image-top { /*jeito normal*/
-  margin-top: -55px;
-}
-
-/*.card .card-image-top { jeito doido
-  position: relative;
-  top: -55px;
-  margin-bottom: -55px;
-}*/
 .card .card-body {
   width: 100%;
   display: table;
@@ -61,7 +52,7 @@ p{
 .card .card-body h1 {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 21px;
-  font-weight: 800;
+  font-weight: 900;
   line-height: 24px;
   color: #9013fe;
   margin: 0;

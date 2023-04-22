@@ -43,15 +43,6 @@ p{
   display: block;
 }
 
-.card .card-image-top { /*jeito normal*/
-  margin-top: -55px;
-}
-
-/*.card .card-image-top { jeito doido
-  position: relative;
-  top: -55px;
-  margin-bottom: -55px;
-}*/
 .card .card-body {
   width: 100%;
   display: table;
@@ -59,7 +50,21 @@ p{
 }
 
 .card .card-body h1 {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:<div class="card-container">
+  <div class="card">
+    <img src="images/gato-01.jpg"
+      alt="gato deitado"
+      title="gatinho"
+      class="card-image"
+    />
+    <div class="card-body">
+      <h1>Naruto amarelo</h1>
+  </div>
+  <div class="card-footer">
+   <a href="https://web.whatsapp.com/" class="btn">Meu Botão</a>
+  </div>
+</div>
+</div>
   font-size: 21px;
   font-weight: 800;
   line-height: 24px;

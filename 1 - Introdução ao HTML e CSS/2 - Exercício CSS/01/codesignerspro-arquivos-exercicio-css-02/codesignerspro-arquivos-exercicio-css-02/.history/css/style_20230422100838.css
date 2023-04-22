@@ -43,15 +43,15 @@ p{
   display: block;
 }
 
-.card .card-image-top { /*jeito normal*/
+/*.card .card-image-top { jeito normal
   margin-top: -55px;
-}
+}*/
 
-/*.card .card-image-top { jeito doido
+.card .card-image-top { /*jeito doido*/
   position: relative;
   top: -55px;
-  margin-bottom: -55px;
-}*/
+  margin-bo;
+}
 .card .card-body {
   width: 100%;
   display: table;

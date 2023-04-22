@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  background-color: #f2f5f7;
+}
+
+.my-box {
+  width: 50%;
+  height: 400px;
+  background-color: purple;
+  border-radius: 30px;
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.my-box h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+@media onlys

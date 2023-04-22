@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  background-color: #f2f5f7;
+}
+
+@media only screen and (min-width: 320px){
+  .my-box {
+    width: 90%;
+    height: 400px;
+    background-color: greenyellow;
+    border-radius: 30px;
+    display: block;
+    margin: 60px auto;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  .my-box h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+  }
+}
+
+@media only screen and (min-width: 540px){
+  .my-box {
+    width: 50%;
+    height: 400px;
+    background-color: purple;
+    border-radius: 30px;
+    display: block;
+    margin: 60px auto;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  .my-box h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 1400px){
+  .my-box {
+    width: 50%;
+    height: 400px;
+    background-color: orangered;
+    border-radius: 30px;
+    display: block;
+    margin: 60px auto;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  .my-box h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+    font-size: 70px;
+  }
+}

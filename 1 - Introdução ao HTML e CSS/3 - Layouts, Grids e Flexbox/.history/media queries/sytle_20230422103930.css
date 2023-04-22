@@ -1,0 +1,10 @@
+body{
+  margin: 0;
+  background-color: f2f5f7;
+}
+
+.my-box {
+  width: 50%;
+  height: 400px;
+  background-color: purple;
+}

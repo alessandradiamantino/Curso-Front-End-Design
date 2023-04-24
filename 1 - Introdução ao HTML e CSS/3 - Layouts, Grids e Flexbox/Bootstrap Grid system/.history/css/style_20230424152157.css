@@ -21,7 +21,7 @@ body {
   flex-wrap: wrap;*/
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   align-content: center;
 }
 
@@ -90,14 +90,4 @@ body {
   flex: 3 1 auto;
 }
 
-.self-top {
-  align-self: flex-start;
-}
-
-.self-center {
-  align-self: center;
-}
-
-.self-bottom {
-  align-self: flex-end;
-}
+.self

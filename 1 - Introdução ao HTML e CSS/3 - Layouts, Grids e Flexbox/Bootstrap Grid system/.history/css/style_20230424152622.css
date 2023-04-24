@@ -93,9 +93,8 @@ body {
 .self-top {
   align-self: flex-start;
 }
-
 .self-center {
-  align-self: center;
+  
 }
 
 .self-bottom {

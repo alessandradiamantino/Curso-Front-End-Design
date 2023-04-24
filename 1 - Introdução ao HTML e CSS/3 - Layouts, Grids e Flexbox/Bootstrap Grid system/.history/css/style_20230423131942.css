@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.my-box{
+  height: 100px;
+}
+
+.my-container{
+  display: flex;
+  width: 80%;
+  height: 600px;
+  margin: 60px auto;
+  background-color: #8a00cf;
+  border-radius: 8px;
+  flex-direction: row;
+  flex
+}
+
+.my-item {
+  padding: 30px;
+  background-color: aquamarine;
+  border-radius: 8px;
+  border: 4px solid white;
+  flex-basis: 25%;
+}
+
+.my-box div {
+  background-color: blueviolet;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.my-box .div-1 {
+  background-color: aquamarine;
+}
+
+.my-box .div-2 {
+  background-color: bisque;
+}
+
+.my-box .div-3 {
+  background-color: cornflowerblue;
+}
+

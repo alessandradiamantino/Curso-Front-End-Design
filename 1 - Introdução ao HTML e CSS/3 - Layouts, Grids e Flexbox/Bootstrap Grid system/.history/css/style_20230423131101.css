@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.my-box{
+  height: 100px;
+}
+
+.my-container{
+  display: flex;
+  width: 80%;
+  margin: 60px auto;
+  background-color: #8a00cf;
+  border-radius: 8px;
+  flex-direction: row-reverse;
+}
+
+.my-item {
+  height: 100px;
+  
+  background-color: aquamarine;
+  border-radius: 8px;
+}
+
+.my-box div {
+  background-color: blueviolet;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.my-box .div-1 {
+  background-color: aquamarine;
+}
+
+.my-box .div-2 {
+  background-color: bisque;
+}
+
+.my-box .div-3 {
+  background-color: cornflowerblue;
+}
+

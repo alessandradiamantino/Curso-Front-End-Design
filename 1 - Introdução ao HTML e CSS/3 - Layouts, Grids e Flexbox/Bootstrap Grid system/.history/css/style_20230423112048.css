@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.my-box{
+  background-color: blue;
+  height: 100px;
+}
+
+.my-box DIV

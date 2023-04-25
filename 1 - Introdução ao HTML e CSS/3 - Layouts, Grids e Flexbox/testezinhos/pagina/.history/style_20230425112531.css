@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(88, 88, 88);
+}
+h2 {
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  align-items: center;
+}
+.cab {
+  background-color: rgb(34, 34, 34);
+  margin: auto;
+  height: 50px;
+}

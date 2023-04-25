@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="cab">
+    <h2>Site de testes</h1>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+        <div class="icon">
+          <i class="fa fa-bars" id="one"></i>
+          <i class="fa fa-times" id="two"></i>
+        </div>
+      </nav>
+      <script>
+        const icon = document.querySelector('.icon')
+        const nav = document.querySelector('.nav')
+
+        var count = 1;
+
+        icon.addEventListener('click', () => {
+          icon.classList.toggle('clse')
+        })
+      </script>
+  </div>
+<div class="card">
+  <h3>Um gato triste</h3>
+  <img src="https://www.metroworldnews.com/resizer/qApjyXt-EC9d23K8vUEH5FGDA6Q=/800x0/filters:format(png):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/PN5TPNORG5A7BIII32N3YRGU6I.png" class ="img" alt="">
+  <h4>Alguma coisa será escrita aqui, <br> veja um gato triste, tadinho <br>teste de texto do CSS e HTML</h4>
+  <button class="button">Clique aqui</button>
+</div>
+
+<div class="card">
+  <h3>Alguma coisa escrita aqui</h3>
+  <img src="https://i.pinimg.com/236x/6e/1d/75/6e1d755475fa92674ed26cdbe781e920.jpg" class ="img" alt="">
+  <h4>Alguma coisa será escrita aqui, <br> veja um gato triste, tadinho <br>teste de texto do CSS e HTML</h4>
+  <button class="button">Clique aqui</button>
+  </div>
+</div>
+</body>
+</html>
